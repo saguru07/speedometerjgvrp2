@@ -2,6 +2,8 @@
 
 :root {
     --hud-scale: 0.8;               /* ubah untuk memperbesar / memperkecil HUD */
+    --hud-bottom: 70px;             /* jarak dari tepi bawah layar: makin besar, HUD makin naik */
+    --hud-right: 18px;              /* jarak dari tepi kanan layar */
     --white: #f4f6f8;
     --off: rgba(255, 255, 255, 0.22);
     --green: #20e070;
@@ -23,7 +25,7 @@ html, body {
 html.preview body { justify-content: center; align-items: center; background: #222 !important; }
 
 .hud {
-    width: 540px; margin: 18px; padding: 20px 26px 16px;
+    width: 540px; margin: 18px var(--hud-right) var(--hud-bottom) 18px; padding: 20px 26px 16px;
     border-radius: 22px;
     background: linear-gradient(180deg, #17181b, #0b0b0d);
     border: 1px solid rgba(255, 255, 255, 0.07);
