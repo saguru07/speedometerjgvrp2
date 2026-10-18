@@ -2,7 +2,7 @@
 
 :root {
     --hud-scale: 0.8;               /* ubah untuk memperbesar / memperkecil HUD */
-    --hud-bottom: 100px;             /* jarak dari tepi bawah layar: makin besar, HUD makin naik */
+    --hud-bottom: 50px;             /* jarak dari tepi bawah layar: makin besar, HUD makin naik */
     --hud-right: 18px;              /* jarak dari tepi kanan layar */
     --white: #f4f6f8;
     --off: rgba(255, 255, 255, 0.22);
