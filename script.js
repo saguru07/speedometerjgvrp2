@@ -5,7 +5,7 @@ const CONFIG = {
     redline: 0.85,            // mulai zona merah (0.0 - 1.0)
     // Intro / brand
     intro: true,              // mainkan intro saat HUD baru dipakai
-    brandText: 'ANNIS',       // teks animasi (dipakai jika logo.png tidak ada)
+    brandText: 'WELCOME',       // teks animasi (dipakai jika logo.png tidak ada)
     brandLogo: 'logo.png',    // foto/logo: taruh di folder yang sama, namai logo.png
 
     chimeVolume: 0.35,
